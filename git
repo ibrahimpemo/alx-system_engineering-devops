@@ -5,5 +5,3 @@ read commit
 git add .
 git commit -m "${commit}"
 git push
-ibrahimpemo
-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
