@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Input File Name : "
+read name
+touch ${name}
+echo "Input Task"
+read task
+echo "#!/bin/bash 
+${task}" > ${name}
