@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Ibrahim Maher"
+echo "alx-system_engineering-devops"
 echo "Input File Name : "
 read name
 touch ${name}
@@ -7,7 +9,6 @@ read task
 echo "#!/bin/bash
 ${task}" > ${name}
 chmod u+x ${name}
-echo "Just To Make Sure"
-ls
+echo "You Established This Script ---> ${name} Successfully! "
 cd ..
 ./git

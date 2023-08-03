@@ -5,3 +5,5 @@ read commit
 git add .
 git commit -m "${commit}"
 git push
+echo "You Pushed The GitHub Repository Successfully! "
+echo "Now Go Check Your Code For The Task :) "
