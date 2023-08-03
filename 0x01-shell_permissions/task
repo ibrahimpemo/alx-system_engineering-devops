@@ -4,7 +4,7 @@ read name
 touch ${name}
 echo "Input Task"
 read task
-echo "#!/bin/bash 
+echo "#!/bin/bash
 ${task}" > ${name}
 chmod u+x ${name}
 echo "Just To Make Sure"
