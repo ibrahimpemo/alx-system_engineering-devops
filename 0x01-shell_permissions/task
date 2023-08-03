@@ -9,3 +9,5 @@ ${task}" > ${name}
 chmod u+x ${name}
 echo "Just To Make Sure"
 ls
+cd ..
+./git
